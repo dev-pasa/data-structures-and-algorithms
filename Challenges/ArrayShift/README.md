@@ -9,3 +9,10 @@ Input	            |   Output
 -------------------   ------------------
 [2,4,6,8], 5	    |  [2,4,5,6,8]
 [4,8,15,23,42], 16	| [4,8,15,16,23,42]
+
+
+## Approach & Efficiency
+The BigO is O(n) because we did a for loop, space is O(n).
+
+## Solution
+![](../../ArrShift.jpg)
