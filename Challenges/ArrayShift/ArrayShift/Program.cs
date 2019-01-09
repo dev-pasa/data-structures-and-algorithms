@@ -6,8 +6,6 @@ namespace ArrayShift
     {
         static void Main(string[] args)
         {
-
-           
             int[] array = new int[] { 2, 4, 6, 7, 8 };
             int value = 5;
             int[] newArr = ArrayInsert(array, value);
@@ -16,8 +14,6 @@ namespace ArrayShift
                 Console.Write($"{newArr[i]}, ");
             }
             Console.WriteLine();
-            
-            //ArrayInsert(array, value);
         }
 
 
@@ -29,7 +25,8 @@ namespace ArrayShift
             int midFixed = Convert.ToInt32(Math.Ceiling(mid));
 
             for(int i = 0; i < newArr.Length; i++)
-            {
+            { 
+                //our if conditions
                 if(i == midFixed) newArr[i] = value;              
                 else if (i > midFixed) newArr[i] = array[i - 1];              
                 else newArr[i] = array[i]; 
