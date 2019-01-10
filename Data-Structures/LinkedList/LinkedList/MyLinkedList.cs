@@ -6,27 +6,19 @@ namespace LinkedList
 {
     public class MyLinkedList
     {
+        public MyLinkedList(Node node)
+        {
+
+        }
 
         //default empty value in head
         //insert value to the head
         // whether the value exists
         // print the all the values
 
-        public class Node
-        {
-            public int Value;
-            public Node Next;
-            public Node(int value)
-            {
-                this.Value = value;
-            }
-            
-        }
-        public class LinkedList
-        {
-            public Node head;
+            public Node head = null;
 
-            public void PrintAllheads()
+            public void Print()
             {
                 Node current = head;
                 while(current != null)
@@ -36,21 +28,35 @@ namespace LinkedList
                 }
             }
 
-            public void AddToHead(int value)
+            public void Insert(Node node)
             {
-                Node newNode = new Node(value);
+                //Node newNode = new Node();
                 //question here
-                newNode.Value = value;
-                newNode.Next = head;
-                head = newNode;
+               // newNode.Value = value;
+                node.Next = head;
+                head = node;
             }
 
-            public static bool CheckValue(int Value)
+            public bool Includes(int value)
+            {
                 Node current = head;
+                if ( current == null)
+                {
+                    return false;
+                }
+                while (head.Next != null)
+                {
+                    if (current.Value == value)
+                    {
+                        return true;
+                    }
+                    return false;
+                }
+
+                return false;
 
             }
         }
 
 
     }
-}
