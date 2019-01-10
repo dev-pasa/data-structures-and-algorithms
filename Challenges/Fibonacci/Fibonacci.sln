@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{0EF13506-26C4-4EE2-AF56-7913BA407621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitFibTDD", "XUnitFibTDD\XUnitFibTDD.csproj", "{ABD0C74C-565F-4C53-AC56-CA56B25B1BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EF13506-26C4-4EE2-AF56-7913BA407621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF13506-26C4-4EE2-AF56-7913BA407621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF13506-26C4-4EE2-AF56-7913BA407621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF13506-26C4-4EE2-AF56-7913BA407621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD0C74C-565F-4C53-AC56-CA56B25B1BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD0C74C-565F-4C53-AC56-CA56B25B1BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD0C74C-565F-4C53-AC56-CA56B25B1BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD0C74C-565F-4C53-AC56-CA56B25B1BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C720587-37E3-428B-A208-3D910A4CE198}
+	EndGlobalSection
+EndGlobal
