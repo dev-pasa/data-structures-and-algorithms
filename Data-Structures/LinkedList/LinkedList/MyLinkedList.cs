@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace LinkedList
 {
     public class MyLinkedList
     {
+
+        public Node Head { get; set; } = null;
+
         public MyLinkedList(Node node)
         {
+            Head = node;
 
         }
 
@@ -15,43 +20,65 @@ namespace LinkedList
         //insert value to the head
         // whether the value exists
         // print the all the values
+        //public Node head = null;
 
-            public Node head = null;
 
-            public void Print()
+        public void Print()
             {
-                Node current = head;
+                Node current = Head;
                 while(current != null)
                 {
                     Console.WriteLine(current.Value);
                     current = current.Next;
-                }
-            }
 
+                }
+    
+            }
+           
+            /// <summary>
+            /// add node to the head
+            /// </summary>
+            /// <param name="node"></param>
             public void Insert(Node node)
             {
-                //Node newNode = new Node();
-                //question here
-               // newNode.Value = value;
-                node.Next = head;
-                head = node;
+            //// if passed in an int
+            // Node newNode = new Node(value);
+            //question here
+            //newNode.Value = value;
+            // newNode.Next = Head;
+            //Head = newNode;
+
+             node.Next = Head;
+             Head = node;
             }
 
+            /// <summary>
+            /// check if the value exists
+            /// </summary>
+            /// <param name="value"></param>
+            /// <returns></returns>
             public bool Includes(int value)
             {
-                Node current = head;
+                Node current = Head;
                 if ( current == null)
                 {
                     return false;
                 }
-                while (head.Next != null)
+                while (current != null)
                 {
+                
                     if (current.Value == value)
                     {
                         return true;
                     }
-                    return false;
+                current = current.Next;
                 }
+
+               ////For me -- if I have curent.next
+                //if(current.Value == value)
+                //{
+                    //return true;
+                //}
 
                 return false;
 

@@ -6,10 +6,27 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            Node node = new Node(1);
-            MyLinkedList list = new MyLinkedList(node);
-            list.Insert(node);
-            Console.WriteLine(list.head.Value);
+            Node node1 = new Node(1);
+            Node node2 = new Node(2);
+            Node node3 = new Node(3);
+            //node1.Next = node2;
+            //node2.Next = node3;
+
+            MyLinkedList list = new MyLinkedList(null);
+            
+            list.Insert(node3);
+            list.Insert(node2);
+            list.Insert(node1);
+            //Node temp = node1;
+            //while(temp != null)
+            //{
+            //Console.WriteLine(temp.Value);
+            //temp = temp.Next;
+            //}
+
+
+            Console.WriteLine(list.Includes(2));
+            
         }
     }
 }
