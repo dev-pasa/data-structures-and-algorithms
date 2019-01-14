@@ -7,7 +7,7 @@ namespace LinkedList
 {
     public class MyLinkedList
     {
-
+        //properties
         public Node Head { get; set; } = null;
 
         public Node Current { get; set; }
