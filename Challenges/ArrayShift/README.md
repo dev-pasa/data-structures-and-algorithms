@@ -15,7 +15,7 @@ Input	            |   Output
 The BigO is O(n) because we did a for loop, space is O(n).
 
 ## Solution
-![image](.../Assets/ArrayShift.jpg)
+![image](.../.../Assets/ArrayShift.jpg)
 
 ##Diagram
-markup: ![ArrayShift img](.../.../.../Assets/ArrayShift.jpg)
+markup: ![ArrayShift](.../.../.../Assets/ArrayShift.jpg)
