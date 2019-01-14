@@ -15,4 +15,4 @@ Input	            |   Output
 The BigO is O(n) because we did a for loop, space is O(n).
 
 ## Solution
-![whiteboard](/Assets/ArrShift.jpg)
+![whiteboard](/Assets/ArrayShift.jpg)

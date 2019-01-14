@@ -12,4 +12,4 @@ Input	                     |   Output
 
 
 #Diagram
-markup: ![whiteboard][/Assets/BinarySearch.jpg]
+markup: ![whiteboard](/Assets/BinarySearch.jpg)
