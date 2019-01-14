@@ -16,4 +16,7 @@ The BigO is O(n) because we did a for loop, space is O(n).
 
 ## Solution
 ##Diagram
-markup: ![ArrayShift](/Assets/ArrayShift.jpg)
+![whiteboard](/Assets/ArrShift.jpg)
+
+
+
