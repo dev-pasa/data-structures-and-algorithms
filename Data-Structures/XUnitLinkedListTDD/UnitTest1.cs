@@ -232,7 +232,6 @@ namespace XUnitLinkedListTDD
             Assert.True(list.Includes(11));
         }
 
-
         [Fact]
         public void InsertAfter1()
         {
