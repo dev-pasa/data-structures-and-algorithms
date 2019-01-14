@@ -16,3 +16,6 @@ The BigO is O(n) because we did a for loop, space is O(n).
 
 ## Solution
 ![](../../ArrShift.jpg)
+
+##Diagram
+markup: ![ArrayShift img](.../.../Assets/ArrayShift.jpg)
