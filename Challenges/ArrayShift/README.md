@@ -15,4 +15,4 @@ Input	            |   Output
 The BigO is O(n) because we did a for loop, space is O(n).
 
 ## Solution
-![](../../ArrShift.jpg)
+![whiteboard](/Assets/ArrShift.jpg)
