@@ -20,16 +20,8 @@ namespace LinkedList
             list.Insert(node1);
             //list.Append(5);
             //list.InsertBefore(node2, 7);
-            list.InsertAfter(node2, 7);
-            //Node temp = node1;
-            //while(temp != null)
-            //{
-            //Console.WriteLine(temp.Value);
-            //temp = temp.Next;
-            //}
-
-
-            //Console.WriteLine(list.Includes(4));
+            list.InsertAfter(node3, 7);
+   
             list.Print();
             
         }

@@ -12,4 +12,8 @@ Input	                     |   Output
 
 
 #Diagram
+<<<<<<< HEAD
 markup: ![whiteboard](/Assets/BinarySearch.jpg)
+=======
+markup: ![whiteboard](/Assets/BinarySearch.jpg)
+>>>>>>> f504ed8ef5da107ab84dea340aa6ec6932349824
