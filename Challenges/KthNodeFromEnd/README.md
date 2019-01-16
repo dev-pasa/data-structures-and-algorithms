@@ -14,3 +14,4 @@ I did two loops for this problem. First to find the count of the list, then to c
 
 #WhiteBoard
 markup: ![whiteboard kthnode](/Assets/KthNode.JPG)
+
