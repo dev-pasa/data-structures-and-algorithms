@@ -12,6 +12,7 @@ namespace KthNodeFromEnd
         public static void Main(string[] args)
         {
             Node node1 = new Node(1);
+
             MyLinkedList list = new MyLinkedList(node1);
             list.Append(2);
             list.Append(3);
@@ -32,6 +33,37 @@ namespace KthNodeFromEnd
         /// <param name="list"></param>
         /// <param name="k"></param>
         /// <returns>int value of Node</returns>
+       // public static int KthNodeEnd(MyLinkedList list, int k)
+       // {
+       //     if (list.Head == null)
+       //     {
+       //         throw new NullReferenceException("List is null");
+       //     }
+       //     
+       //     int count = 0;
+       //     Node current = list.Head;
+       //
+       //     while (current.Next != null)
+       //     {
+       //         count++;
+       //         current = current.Next;
+       //     }
+       //
+       //     if (count < k)
+       //     {
+       //         throw new IndexOutOfRangeException("Index out of range.");
+       //     }
+       //
+       //     current = list.Head;
+       //
+       //     while (count > k)
+       //     {
+       //         current = current.Next;
+       //         count--;
+       //     }
+       //     return current.Value;
+       // }
+
         public static int KthNodeEnd(MyLinkedList list, int k)
         {
             if (list.Head == null)
@@ -41,8 +73,8 @@ namespace KthNodeFromEnd
             
             int count = 0;
             Node current = list.Head;
-
-            while (current.Next != null)
+            
+            while (current != null)
             {
                 count++;
                 current = current.Next;
@@ -52,15 +84,22 @@ namespace KthNodeFromEnd
             {
                 throw new IndexOutOfRangeException("Index out of range.");
             }
-
+            
             current = list.Head;
+            int n = count - k;
+            int newCount = 0;
 
-            while (count > k)
+            while (current != null)
             {
+                newCount++;
+                if(newCount == n)
+                {
+                    return current.Value;
+                }
                 current = current.Next;
-                count--;
             }
             return current.Value;
+
         }
     }
 }

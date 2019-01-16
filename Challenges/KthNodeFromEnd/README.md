@@ -16,7 +16,7 @@ I did two loops for this problem. First to find the count of the list, then to c
 
 
 #WhiteBoard
-markup: ![whiteboard kthnode](/Assets/KthNode.JPG)
+markup: ![whiteboard kthnode](/Assets/KthNode.jpg)
 =======
 #Find the Kth node from the last node
 
