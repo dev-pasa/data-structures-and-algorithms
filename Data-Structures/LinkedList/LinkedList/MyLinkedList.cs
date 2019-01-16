@@ -7,11 +7,19 @@ namespace LinkedList
 {
     public class MyLinkedList
     {
-        //properties
+        /// <summary>
+        /// set the head of the list
+        /// </summary>
         public Node Head { get; set; } = null;
 
+        /// <summary>
+        /// set the current node
+        /// </summary>
         public Node Current { get; set; }
 
+       /// <summary>
+       /// set the next node
+       /// </summary>
         public Node Next { get; set; }
 
         //public Node Previous { get; set; }
@@ -148,9 +156,9 @@ namespace LinkedList
             return Current;
         }
 
-        //insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+       
         /// <summary>
-        /// 
+        /// insertAfter(value, newVal) which adds a new node with the given newValue immediately after the first value node
         /// </summary>
         /// <param name="given_node"></param>
         /// <param name="insertBeforeVal"></param>
