@@ -46,7 +46,7 @@ namespace LinkedList
                 Node current = Head;
                 while(current != null)
                 {
-                    Console.WriteLine(current.Value);
+                    Console.Write(current.Value + " -> ");
                     current = current.Next;
                 }
             }

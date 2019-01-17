@@ -12,6 +12,7 @@ namespace LinkedList
         public int Value;
         public Node Next;
         
+		public Node() { }
         /// <summary>
         /// create a node method
         /// </summary>
