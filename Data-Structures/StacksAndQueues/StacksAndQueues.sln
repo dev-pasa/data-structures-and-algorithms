@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StacksAndQueues", "StacksAndQueues\StacksAndQueues.csproj", "{29FF95DC-087E-4882-A10E-B8E487DE0329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackQueueTest", "StackQueueTest\StackQueueTest.csproj", "{C9F2FBF1-C2F1-4FF7-804F-7895520F42E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29FF95DC-087E-4882-A10E-B8E487DE0329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FF95DC-087E-4882-A10E-B8E487DE0329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FF95DC-087E-4882-A10E-B8E487DE0329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FF95DC-087E-4882-A10E-B8E487DE0329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F2FBF1-C2F1-4FF7-804F-7895520F42E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F2FBF1-C2F1-4FF7-804F-7895520F42E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F2FBF1-C2F1-4FF7-804F-7895520F42E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F2FBF1-C2F1-4FF7-804F-7895520F42E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2EB75C8-8C30-4DC2-9DA9-66366D3174B1}
+	EndGlobalSection
+EndGlobal
