@@ -14,6 +14,5 @@ Space complexity is O(n)
 I did two loops for this problem. First to find the count of the list, then to count backward to the kth node. Given a kth value, when the loop starts from the end, the current head stops at the kth node. 
 
 
-#WhiteBoard
+# WhiteBoard
 markup: ![whiteboard kthnode](/Assets/KthNode.jpg)
-
