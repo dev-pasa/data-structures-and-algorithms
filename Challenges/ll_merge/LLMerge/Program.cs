@@ -52,8 +52,7 @@ using LinkedList;
                     returnNode = returnNode.Next;
                 }
             }
-            return returnList;
-            
+            return returnList;        
         }
     }
 }
