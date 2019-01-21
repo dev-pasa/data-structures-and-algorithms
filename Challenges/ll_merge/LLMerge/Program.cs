@@ -20,7 +20,7 @@ using LinkedList;
             //second.Print();
 
             MyLinkedList newHead = Merge(first, second);
-            Console.WriteLine();
+            //Console.WriteLine();
             newHead.Print();
             
         }
