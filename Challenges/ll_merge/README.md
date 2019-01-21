@@ -9,5 +9,5 @@ The Big O of the algorithm is O(N). I will use one while loop with two if condit
 
 
 ## Solution
-markup: ![linked Merge](/Assets/llmerge2.JPG)
 markup: ![list merge](/Assets/llmerge1.JPG)
+markup: ![linked Merge](/Assets/llmerge2.JPG)
