@@ -8,8 +8,9 @@ namespace StacksAndQueues.Classes
     {
         public Node Top { set; get; }
 
-        public Stack(Node node)
+        public Stack(int value)
         {
+            Node node = new Node(value);
             Top = node;
         }
 
@@ -29,7 +30,7 @@ namespace StacksAndQueues.Classes
         {
             Node temp = Top;
             Top = Top.next;
-            Top.next = null;
+            //Top.next = null;
             return temp;   
         }
 

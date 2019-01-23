@@ -10,8 +10,9 @@ namespace StacksAndQueues.Classes
         public Node Front { get; set; }
         public Node Rear { get; set; }
 
-        public Queue(Node node)
+        public Queue(int value)
         {
+            Node node = new Node(value);
             Front = node;
             Rear = node;
         }
@@ -19,8 +20,17 @@ namespace StacksAndQueues.Classes
         public void Enqueue(int value)
         {
             Node node = new Node(value);
-            Rear.next = node;
-            Rear = node;
+            //Handle case where queue has been instantiated with null
+            if (Rear == null && Front == null)
+            {
+                Front = node;
+                Rear = Front;
+            }
+            else
+            {
+                Rear.next = node; 
+                Rear = node; 
+            }
         }
 
         public Node Dequeue()
