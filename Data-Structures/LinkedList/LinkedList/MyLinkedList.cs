@@ -24,8 +24,9 @@ namespace LinkedList
 
         //public Node Previous { get; set; }
 
-        public MyLinkedList(Node node)
+        public MyLinkedList(int value)
         {
+            Node node = new Node(value);
             Head = node;
             Current = node;
             //Previous = null;
@@ -55,8 +56,10 @@ namespace LinkedList
             /// add node to the head
             /// </summary>
             /// <param name="node"></param>
-            public void Insert(Node node)
+            public void Insert(int value)
             {
+
+            Node node = new Node(value);
             //// if passed in an int
             // Node newNode = new Node(value);
             //question here
@@ -64,7 +67,7 @@ namespace LinkedList
             // newNode.Next = Head;
             //Head = newNode;
 
-             node.Next = Head;
+            node.Next = Head;
              Head = node;
             }
 

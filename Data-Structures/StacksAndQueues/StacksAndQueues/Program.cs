@@ -13,7 +13,7 @@ namespace StacksAndQueues
             stack.Push(2);
             stack.Push(3);
             stack.Push(4);
-
+                       
             Console.WriteLine(stack.Top.Value);
         }
     }

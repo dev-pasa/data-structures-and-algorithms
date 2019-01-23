@@ -9,24 +9,24 @@ namespace StackQueueTest
         [Fact]
         public void StackAdd()
         {
-            Node node1 = new Node(1);
-            Stack stack = new Stack(node1);
+           
+            Stack stack = new Stack(1);
 
             Assert.Equal(1, stack.Top.Value);
         }
         [Fact]
         public void StackAdd2()
         {
-            Node node1 = new Node(5);
-            Stack stack = new Stack(node1);
+           
+            Stack stack = new Stack(5);
 
             Assert.Equal(5, stack.Top.Value);
         }
         [Fact]
         public void StackAdd3()
         {
-            Node node1 = new Node(7);
-            Stack stack = new Stack(node1);
+            
+            Stack stack = new Stack(7);
 
             Assert.Equal(7, stack.Top.Value);
         }
@@ -35,7 +35,7 @@ namespace StackQueueTest
         {
             Node node1 = new Node(1);
             Node node2 = new Node(2);
-            Stack stack = new Stack(node1);
+            Stack stack = new Stack(1);
             stack.Push(2);
 
             Assert.Equal(2, stack.Top.Value);
@@ -44,16 +44,16 @@ namespace StackQueueTest
         public void StackPush2()
         {
             Node node1 = new Node(1);
-            Stack stack = new Stack(node1);
-            stack.Push(3);
+            Stack stack = new Stack(1);
+            stack.Push(1);
 
-            Assert.Equal(3, stack.Top.Value);
+            Assert.Equal(1, stack.Top.Value);
         }
         [Fact]
         public void StackPush3()
         {
-            Node node1 = new Node(1);
-            Stack stack = new Stack(node1);
+            Node node5 = new Node(5);
+            Stack stack = new Stack(5);
             stack.Push(5);
 
             Assert.Equal(5, stack.Top.Value);
@@ -64,7 +64,8 @@ namespace StackQueueTest
         {
             Node node1 = new Node(1);
             Node node2 = new Node(2);
-            Stack stack = new Stack(node1);
+            Node node5 = new Node(5);
+            Stack stack = new Stack(1);
             stack.Push(2);
             stack.Push(5);
             stack.Pop();
@@ -75,7 +76,9 @@ namespace StackQueueTest
         public void StackPop2()
         {
             Node node1 = new Node(1);
-            Stack stack = new Stack(node1);
+            Node node3 = new Node(3);
+            Node node10 = new Node(10);
+            Stack stack = new Stack(1);
             stack.Push(3);
             stack.Push(10);
             stack.Pop();
@@ -86,7 +89,9 @@ namespace StackQueueTest
         public void StackPop3()
         {
             Node node1 = new Node(1);
-            Stack stack = new Stack(node1);
+            Node node5 = new Node(5);
+            Node node12 = new Node(12);
+            Stack stack = new Stack(1);
             stack.Push(5);
             stack.Push(12);
             stack.Pop();
@@ -99,7 +104,8 @@ namespace StackQueueTest
         {
             Node node1 = new Node(1);
             Node node2 = new Node(2);
-            Stack stack = new Stack(node1);
+            Node node5 = new Node(5);
+            Stack stack = new Stack(1);
             stack.Push(2);
             stack.Push(5);
             
@@ -109,7 +115,9 @@ namespace StackQueueTest
         public void StackPeek2()
         {
             Node node1 = new Node(1);
-            Stack stack = new Stack(node1);
+            Node node10 = new Node(10);
+            Node node3 = new Node(3);
+            Stack stack = new Stack(1);
             stack.Push(3);
             stack.Push(10);
             
@@ -119,7 +127,9 @@ namespace StackQueueTest
         public void StackPeek3()
         {
             Node node1 = new Node(1);
-            Stack stack = new Stack(node1);
+            Node node12 = new Node(12);
+            Node node5 = new Node(5);
+            Stack stack = new Stack(1);
             stack.Push(5);
             stack.Push(12);
             
@@ -131,7 +141,8 @@ namespace StackQueueTest
         {
             Node node1 = new Node(1);
             Node node2 = new Node(2);
-            Queue queue = new Queue(node1);
+            Node node5 = new Node(5);
+            Queue queue = new Queue(1);
             queue.Enqueue(2);
             queue.Enqueue(5);
 
@@ -140,8 +151,8 @@ namespace StackQueueTest
         [Fact]
         public void NodePeek2()
         {
-            Node node1 = new Node(2);
-            Queue queue = new Queue(node1);
+            
+            Queue queue = new Queue(2);
             queue.Enqueue(3);
             queue.Enqueue(10);
 
@@ -150,8 +161,7 @@ namespace StackQueueTest
         [Fact]
         public void NodePeek3()
         {
-            Node node1 = new Node(3);
-            Queue queue = new Queue(node1);
+            Queue queue = new Queue(3);
             queue.Enqueue(5);
             queue.Enqueue(12);
 
@@ -163,7 +173,8 @@ namespace StackQueueTest
         {
             Node node1 = new Node(1);
             Node node2 = new Node(2);
-            Queue queue = new Queue(node1);
+            Node node5 = new Node(5);
+            Queue queue = new Queue(1);
             queue.Enqueue(2);
             queue.Enqueue(5);
 
@@ -172,8 +183,8 @@ namespace StackQueueTest
         [Fact]
         public void NodeQueue2()
         {
-            Node node1 = new Node(2);
-            Queue queue = new Queue(node1);
+            
+            Queue queue = new Queue(2);
             queue.Enqueue(3);
             queue.Enqueue(10);
 
@@ -182,8 +193,8 @@ namespace StackQueueTest
         [Fact]
         public void NodeQueue3()
         {
-            Node node1 = new Node(3);
-            Queue queue = new Queue(node1);
+            
+            Queue queue = new Queue(3);
             queue.Enqueue(5);
             queue.Enqueue(12);
 
@@ -195,7 +206,8 @@ namespace StackQueueTest
         {
             Node node1 = new Node(1);
             Node node2 = new Node(2);
-            Queue queue = new Queue(node1);
+            Node node5 = new Node(5);
+            Queue queue = new Queue(1);
             queue.Enqueue(2);
             queue.Enqueue(5);
             queue.Dequeue();
@@ -206,7 +218,9 @@ namespace StackQueueTest
         public void Noddequeue2()
         {
             Node node1 = new Node(2);
-            Queue queue = new Queue(node1);
+            Node node10 = new Node(10);
+            Node node3 = new Node(3);
+            Queue queue = new Queue(1);
             queue.Enqueue(3);
             queue.Enqueue(10);
             queue.Dequeue();
@@ -217,7 +231,9 @@ namespace StackQueueTest
         public void Noddequeue3()
         {
             Node node1 = new Node(3);
-            Queue queue = new Queue(node1);
+            Node node12 = new Node(12);
+            Node node5 = new Node(5);
+            Queue queue = new Queue(1);
             queue.Enqueue(5);
             queue.Enqueue(12);
             queue.Dequeue();
