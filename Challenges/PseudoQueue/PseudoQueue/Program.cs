@@ -5,12 +5,18 @@ namespace PseudoQueue
 {
     class Program
     {
-
+        /// <summary>
+        /// Main method to run the application
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             QueueWithStacks();
         }
 
+        /// <summary>
+        /// A function to run all the methods that was built
+        /// </summary>
         public static void QueueWithStacks()
         {
             Queue q = new Queue(1);

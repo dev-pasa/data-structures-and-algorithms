@@ -11,4 +11,4 @@ The Big O of the Dequeue algorithm is O(N) but for push and enqueue is O(1).
 ## Solution
 
 markup: ![Queue with Stack](/Assets/QueueWithStack.JPG)
-
+markup: ![Queue with Stack](/Assets/pseudoQue.jpg)

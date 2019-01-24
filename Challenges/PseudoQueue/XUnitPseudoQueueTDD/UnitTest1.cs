@@ -7,6 +7,9 @@ namespace XUnitPseudoQueueTDD
 {
     public class UnitTest1
     {
+        /// <summary>
+        /// Test Dequeue
+        /// </summary>    
         [Fact]
         public void TestDequeue1()
         {
@@ -17,7 +20,9 @@ namespace XUnitPseudoQueueTDD
             int temp = q.Dequeue();
             Assert.Equal(1, temp);
         }
-
+        /// <summary>
+        /// Test Dequeue
+        /// </summary>
         [Fact]
         public void TestDequeue2()
         {
@@ -28,6 +33,10 @@ namespace XUnitPseudoQueueTDD
             int temp = q.Dequeue();
             Assert.Equal(5, temp);
         }
+
+        /// <summary>
+        /// Test Dequeue
+        /// </summary>
         [Fact]
         public void TestDequeue3()
         {
@@ -39,6 +48,9 @@ namespace XUnitPseudoQueueTDD
             Assert.Equal(6, temp);
         }
 
+        /// <summary>
+        /// Test Queue
+        /// </summary>
         [Fact]
         public void Queue1()
         {
@@ -46,6 +58,10 @@ namespace XUnitPseudoQueueTDD
             int temp = q.Dequeue();
             Assert.Equal(1, temp);
         }
+
+        /// <summary>
+        /// Test Queue
+        /// </summary>
         [Fact]
         public void Queue2()
         {
@@ -53,6 +69,10 @@ namespace XUnitPseudoQueueTDD
             int temp = q.Dequeue();
             Assert.Equal(2, temp);
         }
+
+        /// <summary>
+        /// Test Queue
+        /// </summary>
         [Fact]
         public void Queue3()
         {
@@ -61,6 +81,9 @@ namespace XUnitPseudoQueueTDD
             Assert.Equal(3, temp);
         }
 
+        /// <summary>
+        /// Test DeQueue
+        /// </summary>
         [Fact]
         public void DeQueue1()
         {
@@ -69,12 +92,20 @@ namespace XUnitPseudoQueueTDD
             Assert.Equal(1, temp);
         }
         [Fact]
+
+        /// <summary>
+        /// Test DeQueue
+        /// </summary>
         public void DeQueue2()
         {
             Queue q = new Queue(5);
             int temp = q.Dequeue();
             Assert.Equal(5, temp);
         }
+
+        /// <summary>
+        /// Test DeQueue
+        /// </summary>
         [Fact]
         public void DeQueue3()
         {
