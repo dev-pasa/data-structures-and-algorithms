@@ -15,6 +15,10 @@ namespace PseudoQueue.Classes
         //public Node Front { get; set; }
         //public Node Rear { get; set; }
 
+        /// <summary>
+        /// Create a Queue method to add node to the Stack
+        /// </summary>
+        /// <param name="value"></param>
         public Queue(int value)
         {
             Node newNode = new Node(value);
@@ -22,6 +26,10 @@ namespace PseudoQueue.Classes
             //Front = Rear = newNode;
         }
 
+        /// <summary>
+        /// Add node to the top of the stack 
+        /// </summary>
+        /// <param name="value"></param>
         public void Enqueue(int value)
         {
             Node newNode = new Node(value);
@@ -29,6 +37,10 @@ namespace PseudoQueue.Classes
             //Rear = newNode;
         }
 
+        /// <summary>
+        /// Method to pull node from the bottom of the stack, similar to first in first out method
+        /// </summary>
+        /// <returns></returns>
         public int Dequeue()
         {
             while(stack1.Peek() != null)
