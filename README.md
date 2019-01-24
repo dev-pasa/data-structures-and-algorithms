@@ -4,17 +4,23 @@ The goal is to learn data strctures and algorithms using C#. This is a learning 
 
 
 ## Challenges:
-[Array Shift] (Challenges/ArrayShift)
-[Binary Search] (Challenges/BinarySearch)
-[Fibonacci Sequence] (Challenges/Fibonacci)
-[Queue Object] (Challenges/FifoAnimalShelter)
-[Find a node from end] (Challenges/kthNodeFromEnd)
-[Linked list merge] (Challenges/ll_merge)
-[PseudoQueue] (Challenges/PseudoQueue)
+1. [Array Shift](Challenges/ArrayShift/README.md)
+
+2. [Binary Search](Challenges/BinarySearch/README.md)
+
+3. [Fibonacci Sequence](Challenges/Fibonacci/README.md)
+
+4. [Queue Object](Challenges/FifoAnimalShelter/README.md)
+
+5. [Find a node from end](Challenges/kthNodeFromEnd/README.md)
+
+6. [Linked list merge](Challenges/ll_merge/README.md)
+
+7. [PseudoQueue](Challenges/PseudoQueue/README.md)
 
 
 
 ## Data Structures:
-[Linked list] (Data-Structures/LinkedList)
-[Stacks and Queues] (Data-Structures/StacksAndQueues)
+1. [Linked list](Data-Structures/LinkedList/README.md)
+2. [Stacks and Queues](Data-Structures/StacksAndQueues/README.md)
 
