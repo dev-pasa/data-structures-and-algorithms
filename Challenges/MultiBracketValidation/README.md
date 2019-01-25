@@ -9,5 +9,5 @@ Solving the problem and  coming up with a data structure that checks the order o
 The Big O for this application is O(n).
 
 ## Solution
-markup: ![linked Merge](/Assets/MultiBracketValidation.jpg)
+markup: ![linked Merge](/Assets/MultiBracketValidation2.jpg)
 markup: ![list merge](/Assets/MultiBracketValidation.jpg)
