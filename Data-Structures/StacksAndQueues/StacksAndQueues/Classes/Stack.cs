@@ -4,39 +4,42 @@ using System.Text;
 
 namespace StacksAndQueues.Classes
 {
+    /// <summary>
+    /// Stack data structure
+    /// </summary>
     public class Stack
     {
-        public Node Top { set; get; }
+        public Node Top { get; set; }
 
-        public Stack(int value)
+        public Stack(Node node)
         {
-            Node node = new Node(value);
             Top = node;
-        }
-
-        public Stack()
-        {
-
-        }
-
-        public void Push(int value)
-        {
-            Node node = new Node(value);
-            node.next = Top;
-            Top = node;
-        }
-
-        public Node Pop()
-        {
-            Node temp = Top;
-            Top = Top.next;
-            //Top.next = null;
-            return temp;   
         }
 
         public Node Peek()
         {
-            return Top;
+            try
+            {
+                return Top;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public Node Pop()
+        {
+            Node temp = Peek();
+            Top = Top.next;
+            temp.next = null;
+            return temp;
+        }
+
+        public void Push(Node node)
+        {
+            node.next = Top;
+            Top = node;
         }
     }
 }
