@@ -18,8 +18,6 @@ The goal is to learn data strctures and algorithms using C#. This is a learning 
 
 7. [PseudoQueue](Challenges/PseudoQueue/README.md)
 
-
-
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList/README.md)
 2. [Stacks and Queues](Data-Structures/StacksAndQueues/README.md)
