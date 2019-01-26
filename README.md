@@ -24,3 +24,4 @@ The goal is to learn data strctures and algorithms using C#. This is a learning 
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList/README.md)
 2. [Stacks and Queues](Data-Structures/StacksAndQueues/README.md)
+2. [Tree](Data-Structures/tree/README.md)
