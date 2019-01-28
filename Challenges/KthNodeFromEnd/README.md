@@ -4,7 +4,7 @@
 # Challenge
 Write a function where given a list, find the kth node from the last node.
 
-#Approach & Efficiency
+# Approach & Efficiency
 Find the nth node using while loop. 
 
 # BigO for this problem is O(n).
