@@ -1,6 +1,6 @@
 # Data-structures-and-algorithms
 
-The goal is to learn data strctures and algorithms using C#. This is a learning experience using a strictly typed language.
+The goal is to learn data strctures and algorithms using C#. This is my learning experience using a strictly typed object oriented language.
 
 
 ## Challenges:
@@ -23,5 +23,7 @@ The goal is to learn data strctures and algorithms using C#. This is a learning 
 
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList/README.md)
+
 2. [Stacks and Queues](Data-Structures/StacksAndQueues/README.md)
+
 3. [Tree](Data-Structures/tree/README.md)
