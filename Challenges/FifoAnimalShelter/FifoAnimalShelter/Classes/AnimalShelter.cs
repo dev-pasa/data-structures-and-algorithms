@@ -72,7 +72,7 @@ namespace FifoAnimalShelter.Classes
                 while (!(Front is Dog))
                 {
                     Enqueue(Dequeue());
-                    if (Front != temp)
+                    if (Front == temp)
                         return null;
                     //return null if no animal foound
                 }
