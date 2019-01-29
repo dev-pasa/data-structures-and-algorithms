@@ -14,10 +14,10 @@
 
   <ItemGroup>
     <Reference Include="FizzBuzzTree">
-      <HintPath>..\FizzBuzzTree\FizzBuzzTree\bin\Debug\netcoreapp2.2\FizzBuzzTree.dll</HintPath>
+      <HintPath>..\FizzBuzzTree\bin\Debug\netcoreapp2.2\FizzBuzzTree.dll</HintPath>
     </Reference>
     <Reference Include="Tree">
-      <HintPath>..\..\Data-Structures\tree\Tree\bin\Debug\netcoreapp2.2\Tree.dll</HintPath>
+      <HintPath>..\..\..\Data-Structures\tree\Tree\bin\Debug\netcoreapp2.2\Tree.dll</HintPath>
     </Reference>
   </ItemGroup>
 
