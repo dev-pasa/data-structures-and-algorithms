@@ -4,7 +4,7 @@
 # Challenge
 Write a function where given a list, find the kth node from the last node.
 
-#Approach & Efficiency
+# Approach & Efficiency
 Find the nth node using while loop. 
 
 # BigO for this problem is O(n).
@@ -15,4 +15,4 @@ I did two loops for this problem. First to find the count of the list, then to c
 
 
 # WhiteBoard
-markup: ![whiteboard kthnode](/Assets/KthNode.jpg)
+![whiteboard kthnode](/Assets/KthNode.jpg)

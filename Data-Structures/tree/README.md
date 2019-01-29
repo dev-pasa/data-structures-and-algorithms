@@ -20,4 +20,5 @@ I than create a binary search tree class that inherited the properties of binary
 The application does not use external APIs.
 
 ## Visual
+
 ![Program test](/Assets/tree.jpg)
