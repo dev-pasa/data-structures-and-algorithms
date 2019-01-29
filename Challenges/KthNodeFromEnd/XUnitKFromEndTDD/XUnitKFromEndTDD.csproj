@@ -13,12 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KthNodeFromEnd\KthNodeFromEnd\KthNodeFromEnd.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <Reference Include="KthNodeFromEnd">
+      <HintPath>..\KthNodeFromEnd\bin\Debug\netcoreapp2.2\KthNodeFromEnd.dll</HintPath>
+    </Reference>
     <Reference Include="LinkedList">
-      <HintPath>..\..\Data-Structures\LinkedList\LinkedList\bin\Debug\netcoreapp2.2\LinkedList.dll</HintPath>
+      <HintPath>..\KthNodeFromEnd\bin\Debug\netcoreapp2.2\LinkedList.dll</HintPath>
     </Reference>
   </ItemGroup>
 
