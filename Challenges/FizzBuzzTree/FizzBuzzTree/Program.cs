@@ -1,5 +1,5 @@
 ﻿using System;
-using Tree.Classes;
+using FizzBuzzTree.Classes;
 
 namespace FizzBuzzTree
 {
@@ -39,9 +39,21 @@ namespace FizzBuzzTree
 
         public static void PreOrderFizzBuzz(Node root)
         {
-            if (root.Value % 15 == 0) Console.WriteLine("FizzBuzz");
-            else if (root.Value % 3 == 0) Console.WriteLine("Fizz");
-            else if (root.Value % 5 == 0) Console.WriteLine("Buzz");
+            if (Convert.ToInt32(root.Value) % 15 == 0)
+            {
+                root.Value = "FizzBuzz";
+                Console.WriteLine(root.Value);
+            }
+            else if (Convert.ToInt32(root.Value) % 3 == 0)
+            {
+                root.Value = "Fizz";
+                Console.WriteLine(root.Value);
+            }
+            else if (Convert.ToInt32(root.Value) % 5 == 0)
+            {
+                root.Value = "Buzz";
+                Console.WriteLine(root.Value);
+            }
             else Console.WriteLine(root.Value);
             if (root.Left != null) PreOrderFizzBuzz(root.Left);
             if (root.Right != null) PreOrderFizzBuzz(root.Right);
