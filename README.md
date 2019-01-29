@@ -20,6 +20,8 @@ The goal is to learn data strctures and algorithms using C#. This is my learning
 
 8. [Multi-Bracket Validation](Challenges/MultiBracketValidation/README.md)
 
+9. [FizzBuzz Tree](Challenges/FizzBuzzTree/README.md)
+
 
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList/README.md)
