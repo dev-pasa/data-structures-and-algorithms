@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 using static FizzBuzzTree.Program;
-using Tree.Classes;
+using FizzBuzzTree.Classes;
 namespace XUnitTestFizzBuzzTree
 {
     public class UnitTest1
