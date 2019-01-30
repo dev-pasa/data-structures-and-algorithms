@@ -41,8 +41,8 @@ namespace Tree.Classes
         {
             if (root == null || root.Value == value) return root;
 
-            if (value < root.Value) return Search(root.Left, value);
-            else return Search(root.Right, value);
+            if (value < root.Value) return Contains(root.Left, value);
+            else return Contains(root.Right, value);
         }
     }
 }
