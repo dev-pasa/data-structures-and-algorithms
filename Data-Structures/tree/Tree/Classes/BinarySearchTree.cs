@@ -32,12 +32,12 @@ namespace Tree.Classes
         }
 
         /// <summary>
-        /// Search for the value in the tree
+        /// Contains for the value in the tree
         /// </summary>
         /// <param name="root"></param>
         /// <param name="value"></param>
         /// <returns></returns>
-        public Node Search(Node root, int value)
+        public Node Contains(Node root, int value)
         {
             if (root == null || root.Value == value) return root;
 
