@@ -49,7 +49,7 @@ namespace XUnitTreeTest
             BinarySearchTree bst = new BinarySearchTree();
             bst.root = bst.Add(bst.root, 6);
             
-            Assert.Equal(6, bst.Search(bst.root, 6).Value);
+            Assert.Equal(6, bst.Contains(bst.root, 6).Value);
         }
 
         //Test BST Search value == root
@@ -60,7 +60,7 @@ namespace XUnitTreeTest
             BinarySearchTree bst = new BinarySearchTree();
             bst.root = bst.Add(bst.root, 5);
 
-            Assert.Equal(5, bst.Search(bst.root, 5).Value);
+            Assert.Equal(5, bst.Contains(bst.root, 5).Value);
         }
 
         //Test BST Search value == root
@@ -71,7 +71,7 @@ namespace XUnitTreeTest
             BinarySearchTree bst = new BinarySearchTree();
             bst.root = bst.Add(bst.root, 1);
 
-            Assert.Equal(1, bst.Search(bst.root, 1).Value);
+            Assert.Equal(1, bst.Contains(bst.root, 1).Value);
         }
 
         /// <summary>
