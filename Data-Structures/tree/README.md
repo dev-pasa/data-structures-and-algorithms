@@ -15,9 +15,9 @@ Define a method named contains that accepts a value, and returns a boolean indic
 ## Approach & Efficiency
 First I created a node class, then Binary Search which had inorder, preorder and post order traversal. 
 I than create a binary search tree class that inherited the properties of binary search. 
-Time Complexity BigO for Binary tree traversal is O(n).
-Time Complexity BigO for Binary tree traversal is O(log n).
-Space Complexity BigO for Binary tree traversal is O(h). The height of the tree. 
+1. Time Complexity BigO for Binary tree traversal is O(n).
+2. Time Complexity BigO for Binary tree traversal is O(log n).
+3. Space Complexity BigO for Binary tree traversal is O(h). The height of the tree. 
 
 ## API
 The application does not use external APIs.
