@@ -11,4 +11,5 @@ The Big O of the algorithm is O(N). I will traverse through the entire nodes in 
 ## Solution
 
 markup: ![Breadth First](/Assets//BreadthFirst.jpg)
+
 markup: ![Breadth First2](/Assets//BreadthFirst2.jpg)

@@ -6,6 +6,9 @@ namespace XUnitTestFizzBuzzTree
 {
     public class UnitTest1
     {
+        /// <summary>
+        /// Test whether the node value is divisible 3 or 5 and converting it to Fizz or Buzz
+        /// </summary>
         [Fact]
         public void FizzBuzzTest1()
         {
@@ -20,6 +23,9 @@ namespace XUnitTestFizzBuzzTree
             FizzBuzzTree.Program.FizzBuzzTree(BT);
         }
 
+        /// <summary>
+        /// Test whether the node value is divisible 3 or 5 and converting it to Fizz or Buzz
+        /// </summary>
         [Fact]
         public void FizBuzzTest2()
         {
@@ -34,6 +40,9 @@ namespace XUnitTestFizzBuzzTree
             FizzBuzzTree.Program.FizzBuzzTree(BST);
         }
 
+        /// <summary>
+        /// Test whether the node value is divisible 3 or 5 and converting it to Fizz or Buzz
+        /// </summary>
         [Fact]
         public void FizBuzzTest3()
         {

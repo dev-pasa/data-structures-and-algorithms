@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirst", "BreadthFirst\BreadthFirst.csproj", "{97BAD81D-B758-4C41-A633-7CAD6AF2A353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadthFirst", "BreadthFirst\BreadthFirst.csproj", "{97BAD81D-B758-4C41-A633-7CAD6AF2A353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestBreadthFirst", "..\XUnitTestBreadthFirst\XUnitTestBreadthFirst.csproj", "{213712B7-40F0-49FB-BA6E-2ADD20F2A929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestBreadthFirst", "..\XUnitTestBreadthFirst\XUnitTestBreadthFirst.csproj", "{213712B7-40F0-49FB-BA6E-2ADD20F2A929}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

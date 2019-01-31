@@ -5,6 +5,11 @@ namespace FizzBuzzTree
 {
     public class Program
     {
+
+        /// <summary>
+        /// Main method to test the FizzBuzz method
+        /// </summary>
+        /// <param name="args"></param>
        public static void Main(string[] args)
         {
             Console.WriteLine("FizzBuzz Tree: ");
@@ -32,11 +37,19 @@ namespace FizzBuzzTree
             FizzBuzzTree(BT);
         }
 
+        /// <summary>
+        /// Create a method that takes in  a tree and passes the PreOrderFizzBuzz method to convert the value of the nodes. 
+        /// </summary>
+        /// <param name="tree"></param>
         public static void FizzBuzzTree(BinaryTree tree)
         {
             PreOrderFizzBuzz(tree.root);
         }
 
+        /// <summary>
+        /// Fizzbuzz method, check if the value of the node is divisible by 15 or 3 or 5 and then convert the value to Fizz or Buzz or FizzBuzz 
+        /// </summary>
+        /// <param name="root"></param>
         public static void PreOrderFizzBuzz(Node root)
         {
             if (Convert.ToInt32(root.Value) % 15 == 0)
