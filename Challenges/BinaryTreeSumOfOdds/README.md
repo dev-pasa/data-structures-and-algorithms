@@ -13,4 +13,4 @@ Space Compexity = O(h): Where h is the height of the tree
 ![Sum of Odds Tree](/Assets/SumofOddsInTree.jpg)
 
 ## API
-A function was created to calculate the sum of odds in a tree
+A function was created to calculate the sum of odds in a tree. The test was conducted with all positive.
