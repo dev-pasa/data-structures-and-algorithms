@@ -12,7 +12,7 @@
 
 ## Solution
 ![Binary Tree Balanced](/Assets/BinaryTreeBalanced1.jpg)
-![BinaryTreeBalanced](/Assets/BinaryTreeBalanced2.jpg)
+![BinaryTreeBalanced](/Assets/BinaryTreeBalanced.jpg)
 
 
 ## API
