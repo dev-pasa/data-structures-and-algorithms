@@ -18,13 +18,22 @@ namespace IsBinaryTreeBalanced
             Console.WriteLine(IsBinaryTreeBalanced(tree.root));
         }
 
+        /// <summary>
+        /// return a boolean result 
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
         public static bool IsBinaryTreeBalanced(Node root)
         {
             HeightBinaryTree(root);
             return result;
         }
 
-
+        /// <summary>
+        /// find the height of the tree
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
         public static int HeightBinaryTree(Node root)
         {
             if (root == null) return 0;
