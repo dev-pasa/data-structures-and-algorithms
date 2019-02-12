@@ -18,6 +18,11 @@ namespace BinaryTreeHeight
             Console.WriteLine(CalculateBinaryTreeHeight(BST.root));
         }
 
+        /// <summary>
+        /// Calculate the height of the tree
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
         public static int CalculateBinaryTreeHeight(Node root)
         {
             if (root == null) return 0;
