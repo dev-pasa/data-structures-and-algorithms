@@ -13,11 +13,14 @@ namespace MergeTwoLinkedList
 
         public Node MergeTwoList(Node l1, Node l2)
         {
+            //check if anyone is null
             if (l1 == null) return l2;
             if (l2 == null) return l1;
 
+            // create a reference to the head
             Node head = null;
 
+            //keep the head to the lowest of the values
             if(l1.Value < l2.Value)
             {
                 head = l1;
@@ -29,6 +32,7 @@ namespace MergeTwoLinkedList
                 l2 = l2.Next;
             }
 
+            // keep a tracker to the last
             Node last = head;
 
             while(l1 != null && l2 != null)

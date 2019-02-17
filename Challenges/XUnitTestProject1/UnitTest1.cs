@@ -14,14 +14,14 @@ namespace XUnitTestProject1
         public void TreeHeightTest1()
         {
             BinarySearchTree BST = new BinarySearchTree();
-            BST.root = BST.Add(BST.root, 10);
+            //BST.root = BST.Add(BST.root, 10);
             BST.root = BST.Add(BST.root, 15);
-            BST.root = BST.Add(BST.root, 5);
-            BST.root = BST.Add(BST.root, 8);
-            BST.root = BST.Add(BST.root, 12);
-            BST.root = BST.Add(BST.root, 19);
+            //BST.root = BST.Add(BST.root, 5);
+            //BST.root = BST.Add(BST.root, 8);
+            //BST.root = BST.Add(BST.root, 12);
+            //BST.root = BST.Add(BST.root, 19);
 
-            Assert.Equal(3, BinaryTreeHeight.Program.CalculateBinaryTreeHeight(BST.root));
+            Assert.Equal(1, BinaryTreeHeight.Program.CalculateBinaryTreeHeight(BST.root));
         }
 
         /// <summary>

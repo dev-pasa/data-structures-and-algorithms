@@ -15,7 +15,7 @@ using LinkedList;
             //first.Print();
 
             MyLinkedList second = new MyLinkedList(new Node(2));
-            second.Append(4);
+            second.Append(8);
             second.Append(6);
             //second.Print();
 
