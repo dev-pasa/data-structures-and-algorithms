@@ -15,6 +15,12 @@ namespace Repeatword
             Console.WriteLine("Repeat word from input2: " + RepeatWord(input2));
         }
 
+
+       /// <summary>
+       /// Program to find the most repeat word 
+       /// </summary>
+       /// <param name="input"></param>
+       /// <returns></returns>
        public static string RepeatWord(string input)
         {
             string[] values = input.Split(" ");
@@ -27,6 +33,7 @@ namespace Repeatword
                 values[i] = values[i].Trim(nonWords).ToLower();
             }
 
+            //loop through the values and add them to the hash table. 
             foreach(string val in values)
             {
                 if (hashTable.Contains(val))
