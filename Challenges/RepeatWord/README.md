@@ -16,6 +16,7 @@
 
 ## Solution
 ![Repeat Word](/Assets/RepeatWord.jpg)
+![Repeat Word](/Assets/RepeatWord2.jpg)
 
 ### Efficiency
 * Space Complexity
