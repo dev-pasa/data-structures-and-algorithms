@@ -12,8 +12,7 @@ namespace BalancedParenthe
             printParenthesis(str, n);
         }
 
-        static void _printParenthesis(char[] str,
-           int pos, int n, int open, int close)
+        static void _printParenthesis(char[] str, int pos, int n, int open, int close)
         {
             if (close == n)
             {
@@ -29,14 +28,12 @@ namespace BalancedParenthe
                 if (open > close)
                 {
                     str[pos] = '}';
-                    _printParenthesis(str, pos + 1,
-                                    n, open, close + 1);
+                    _printParenthesis(str, pos + 1, n, open, close + 1);
                 }
                 if (open < n)
                 {
                     str[pos] = '{';
-                    _printParenthesis(str, pos + 1,
-                                    n, open + 1, close);
+                    _printParenthesis(str, pos + 1, n, open + 1, close);
                 }
             }
         }
