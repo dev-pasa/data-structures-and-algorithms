@@ -4,6 +4,10 @@ namespace sorts
 {
     public class Program
     {
+        /// <summary>
+        /// Main Function
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             int[] array1 = { 2, 3, 4, 5, 1 };
@@ -24,6 +28,8 @@ namespace sorts
             PrintArray(array3);
           }
 
+
+        
         public static void BeforeSortArray(int[] array)
         {
             Console.WriteLine("Before sorting the Array");

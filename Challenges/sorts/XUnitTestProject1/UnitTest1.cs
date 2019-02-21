@@ -7,6 +7,10 @@ namespace XUnitTestProject1
 {
     public class UnitTest1
     {
+            
+        /// <summary>
+        /// Test1
+        /// </summary>
         [Fact]
         public void InsertSortTest1()
         {
@@ -16,7 +20,9 @@ namespace XUnitTestProject1
             Assert.Equal(output, result);
         }
 
-
+        /// <summary>
+        /// Test2
+        /// </summary>
         [Fact]
         public void InsertSortTest2()
         {
@@ -26,6 +32,9 @@ namespace XUnitTestProject1
             Assert.Equal(output, result);
         }
 
+        /// <summary>
+        /// Test3
+        /// </summary>
         [Fact]
         public void InsertSortTest3()
         {

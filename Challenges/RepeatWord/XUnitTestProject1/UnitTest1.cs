@@ -43,7 +43,7 @@ namespace XUnitTestProject1
         public void Repeat3()
         {
             string input = " hi hello hi hi";
-            Assert.Equal("no", Program.RepeatWord(input));
+            Assert.Equal("hi", Program.RepeatWord(input));
         }
 
     }
