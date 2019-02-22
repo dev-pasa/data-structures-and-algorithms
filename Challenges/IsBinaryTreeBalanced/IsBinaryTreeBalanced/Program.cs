@@ -46,8 +46,7 @@ namespace IsBinaryTreeBalanced
             count++;
             int leftCount = count + HeightBinaryTree(root.Left);
             int rightCount = count + HeightBinaryTree(root.Right);
-            if (Math.Abs(leftCount - rightCount) > 1)
-                result = false;
+            if (Math.Abs(leftCount - rightCount) > 1) result = false;
             return Math.Max(leftCount, rightCount);
         }
     }

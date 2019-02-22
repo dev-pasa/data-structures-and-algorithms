@@ -72,11 +72,9 @@ namespace FindMaxValue
                 var node = queue.Dequeue();
                 list.Add(node.Value);
 
-                if (node.Left != null)
-                    queue.Enqueue(node.Left);
+                if (node.Left != null) queue.Enqueue(node.Left);
 
-                if (node.Right != null)
-                    queue.Enqueue(node.Right);
+                if (node.Right != null) queue.Enqueue(node.Right);
             }
         }
 
