@@ -1,5 +1,5 @@
 # Sorting Algorithm
-* Insertion Sort
+* Create an Insertion Sort Algorithm
 
 ## Challenge
 * Write a method tha takes in unsorted array and returns a sorted array using insertion sort
@@ -7,7 +7,7 @@
 ## Approach and Efficiency
 1. Created a method for Insertion Sort
 > Run a for loop through out the array
-> Initialze the value of j to 0
+> Initialize the value of j to 0
 > Set target to array[i] to compare with previous arrays
 > If i is greater than 0, j = i -1
 2. Created a while loop inside the for loop
@@ -22,4 +22,4 @@
 
 
 ## Solution 
-![Shuffle](/Assets/InsertionSort1.jpg)
+![Shuffle](/Assets/InsertionSort.jpg)

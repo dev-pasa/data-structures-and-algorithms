@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="sorts">
-      <HintPath>..\sorts\bin\Debug\netcoreapp2.2\sorts.dll</HintPath>
+    <Reference Include="InsertionSortAlgorithm">
+      <HintPath>..\InsertionSortAlgorithm\bin\Debug\netcoreapp2.2\InsertionSortAlgorithm.dll</HintPath>
     </Reference>
   </ItemGroup>
 
