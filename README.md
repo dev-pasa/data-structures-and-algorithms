@@ -29,3 +29,7 @@ The goal is to learn data strctures and algorithms using C#. This is my learning
 2. [Stacks and Queues](Data-Structures/StacksAndQueues/README.md)
 
 3. [Tree](Data-Structures/tree/README.md)
+
+4. [Graph] (Data-Structures/Hashtables/README.md)
+
+5. [Graph] (Data-Structures/Graph/README.md)
