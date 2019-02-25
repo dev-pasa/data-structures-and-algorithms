@@ -5,6 +5,7 @@
 - Graphs are used to represent networks. The networks may include paths in a city or telephone network or circuit network. 
 
 ## Challenge
+* Undirected, weighted simple grap
 
 ### Vertex Class
 
@@ -34,7 +35,6 @@
 4. GetNeighbors() 
 * Returns a collection of nodes connected to the given node
 * Takes in a given node
-* Include the weight of the connection in the returned collection
 
 * Time Complexity: O(1), Space Complexity: O(1)
 
@@ -81,6 +81,6 @@ Creates the Adjaceny List
 ## Solution
 ![Program test](/Assets/)
 
-Reference:
+- Reference:
 
-https://www2.cs.duke.edu/courses/cps100e/fall10/class/11_Bacon/code/Graph.html
+* https://www2.cs.duke.edu/courses/cps100e/fall10/class/11_Bacon/code/Graph.html

@@ -37,7 +37,13 @@ namespace graph.Classes
         /// <param name="value"></param>
         public void AddVertex(object value)
         {
-            Vertices.Add(new Vertex(value));
+            Vertex v;
+            v = Vertices.Find(x => x.Value == value);
+            if(v == null)
+            {
+                Vertices.Add(new Vertex(value));
+            }
+           
         }
 
         /// <summary>
