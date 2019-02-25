@@ -18,7 +18,7 @@
 
 2. AddEdge() 
 * Adds a new edge between two nodes in the graph
-* Include the ability to have a ìweightî
+* Include the ability to have a ‚Äúweight‚Äù
 * Takes in the two nodes to be connected by the edge
 * Both nodes should already be in the Graph
 
@@ -34,7 +34,6 @@
 4. GetNeighbors() 
 * Returns a collection of nodes connected to the given node
 * Takes in a given node
-* Include the weight of the connection in the returned collection
 
 * Time Complexity: O(1), Space Complexity: O(1)
 
