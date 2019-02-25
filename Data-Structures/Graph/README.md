@@ -19,7 +19,7 @@
 
 2. AddEdge() 
 * Adds a new edge between two nodes in the graph
-* Include the ability to have a ìweightî
+* Include the ability to have a ‚Äúweight‚Äù
 * Takes in the two nodes to be connected by the edge
 * Both nodes should already be in the Graph
 
@@ -84,3 +84,4 @@ Creates the Adjaceny List
 - Reference:
 
 * https://www2.cs.duke.edu/courses/cps100e/fall10/class/11_Bacon/code/Graph.html
+
