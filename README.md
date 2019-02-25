@@ -30,6 +30,6 @@ The goal is to learn data strctures and algorithms using C#. This is my learning
 
 3. [Tree](Data-Structures/tree/README.md)
 
-4. [Graph] (Data-Structures/Hashtables/README.md)
+4. [HashTable](Data-Structures/Hashtables/README.md)
 
-5. [Graph] (Data-Structures/Graph/README.md)
+5. [Graph](Data-Structures/Graph/README.md)
