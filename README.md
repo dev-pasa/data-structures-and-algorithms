@@ -1,7 +1,11 @@
 # Data-structures-and-algorithms
 
-The goal is to learn data strctures and algorithms using C#. This is my learning experience using a strictly typed object oriented language.
+* The goal is to learn data strctures and algorithms using C#. This is my learning experience using a strictly typed object oriented language. Through out the process I will analyze the theoretical running times of operations on the data structures.
 
+## My primary focus will be on three main things:
+* Correctness: The data structure should correctly implement its interface.
+* Time complexity: The running times of operations on the data structure should be as small as possible.
+* Space complexity: The data structure should use as little memory as possible.
 
 ## Challenges:
 1. [Array Shift](Challenges/ArrayShift/README.md)
@@ -59,4 +63,4 @@ The goal is to learn data strctures and algorithms using C#. This is my learning
 
 ## Sorting Algorithms:
 
-1. [HashTable Left Join](Sorting_Algorithms/InsertionSort/README.md)
+1. [Insertion Sort](Sorting_Algorithms/InsertionSort/README.md)
