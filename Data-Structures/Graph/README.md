@@ -5,6 +5,7 @@
 - Graphs are used to represent networks. The networks may include paths in a city or telephone network or circuit network. 
 
 ## Challenge
+* Undirected, weighted simple grap
 
 ### Vertex Class
 
@@ -80,6 +81,7 @@ Creates the Adjaceny List
 ## Solution
 ![Program test](/Assets/)
 
-Reference:
+- Reference:
 
-https://www2.cs.duke.edu/courses/cps100e/fall10/class/11_Bacon/code/Graph.html
+* https://www2.cs.duke.edu/courses/cps100e/fall10/class/11_Bacon/code/Graph.html
+
