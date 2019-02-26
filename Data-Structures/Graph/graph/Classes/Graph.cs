@@ -123,20 +123,23 @@ namespace graph.Classes
                 return null;
             }
             
+            //create list to hold all the visited vertexes
             List<Vertex> order = new List<Vertex>();
+            //create a queue data structure
             Queue<Vertex> breadth = new Queue<Vertex>();
 
             breadth.Enqueue(root);
-
+            //do a while loop to traverse through the entire graph
             while (breadth.TryPeek(out root))
             {
                 //target the root node
                 Vertex front = breadth.Dequeue();
                 order.Add(front);
 
-
+                //input all the vertex in the order list
                 foreach (Vertex child in Vertices)
                 {
+                    //check if the vertex has been visited
                     if (!child.IsVisited)
                     {
                         child.IsVisited = true;
@@ -144,7 +147,7 @@ namespace graph.Classes
                     }
                 }
             }
-
+            //return the list
             return order;
         }
 
