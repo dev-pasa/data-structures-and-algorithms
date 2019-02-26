@@ -19,7 +19,7 @@
 
 2. AddEdge() 
 * Adds a new edge between two nodes in the graph
-* Include the ability to have a ‚Äúweight‚Äù
+* Include the ability to have a ìweightî
 * Takes in the two nodes to be connected by the edge
 * Both nodes should already be in the Graph
 
@@ -42,6 +42,8 @@
 5. Size() 
 * Returns the total number of nodes in the graph
 
+
+## Approach & Efficiency
 
 ## Approach & Efficiency
 ###  Graph Creates a graph with unconnected nodes. The Graph does not handle duplicate node values.
@@ -77,4 +79,3 @@ Creates the Adjaceny List
 - Reference:
 
 * https://www2.cs.duke.edu/courses/cps100e/fall10/class/11_Bacon/code/Graph.html
-

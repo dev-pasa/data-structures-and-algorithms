@@ -85,6 +85,33 @@ namespace XUnitTestGraph
             Graph graph = new Graph(fruits);
             Assert.Equal(2, graph.Size());
         }
+
+        /// <summary>
+        /// Test GetNeighbors()
+        /// </summary>
+        /// <param name="weight1"></param>
+        /// <param name="weight2"></param>
+        [Theory]
+        [InlineData(4,2)]
+        [InlineData(7, 22)]
+        [InlineData(14, 24)]
+        public void TestNeighbors(int weight1, int weight2)
+        {
+            List<object> fruit = new List<object>()
+            {
+                "Orange",
+                "Grape",
+                "Banana"
+            };
+            Graph graph = new Graph(fruit);
+            //Add the edges
+            graph.AddEdge(fruit[0], fruit[1], weight1);
+            graph.AddEdge(fruit[2], fruit[0], weight2);
+
+            Dictionary<string, int> fruitNeighbors = graph.GetNeighbors("Orange");
+            Assert.True(fruitNeighbors.ContainsValue(weight1) && fruitNeighbors.ContainsValue(weight2));
+        }
+
     }
 
 
