@@ -72,9 +72,19 @@ Creates the Adjaceny List
 5. GetSize Method
 * Return Size of the Graph
 
+## Additional Methods
+- BreadthFirstTraversal
+- Input = Vertex root
+- Checks Vertices to see if start exists in graph.
+- If start isnt in graph then null is returned.
+- Create a queue
+- Create a List
+- If root is not visited then add it to the list
+- return list
+
 
 ## Solution
-![Program test](/Assets/)
+![Breadth First](/Assets/GraphBreadthFirst.jpg)
 
 - Reference:
 

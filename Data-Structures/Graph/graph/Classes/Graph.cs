@@ -116,16 +116,24 @@ namespace graph.Classes
         /// </summary>
         /// <param name="root"></param>
         /// <returns></returns>
-        public List<Vertex> BreadthFirst(Vertex root)
+        public  List<Vertex> BreadthFirst(Vertex root)
         {
+            if (!Vertices.Contains(root))
+            {
+                return null;
+            }
+            
             List<Vertex> order = new List<Vertex>();
             Queue<Vertex> breadth = new Queue<Vertex>();
+
             breadth.Enqueue(root);
 
             while (breadth.TryPeek(out root))
             {
+                //target the root node
                 Vertex front = breadth.Dequeue();
                 order.Add(front);
+
 
                 foreach (Vertex child in Vertices)
                 {
