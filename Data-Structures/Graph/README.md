@@ -44,16 +44,11 @@
 
 
 ## Approach & Efficiency
-* object Value 
-* Constructor Method
 
-* Input - object value
-* Creates a new Vertex with Value = value
+## Approach & Efficiency
+###  Graph Creates a graph with unconnected nodes. The Graph does not handle duplicate node values.
 
-- Graph 
-* Creates a graph with unconnected nodes. DOES NOT HANDLE DUPLICATE NODE VALUES.
-
-Constructor Method
+Constructor Methods
 
 Creates the Adjaceny List
 

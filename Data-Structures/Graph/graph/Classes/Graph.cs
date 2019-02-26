@@ -68,7 +68,7 @@ namespace graph.Classes
                 vertex2 = new Vertex(v2);
                 Vertices.Add(vertex2);
             }
-
+            //Add key and value pairs
             vertex1.AdjacentVertices.Add(vertex2, weight);
             vertex2.AdjacentVertices.Add(vertex1, weight);
         }
@@ -89,6 +89,55 @@ namespace graph.Classes
        public List<Vertex> GetVertexes()
         {
             return Vertices;
+        }
+
+        public Dictionary<string, int> GetNeighbors(object value)
+        {
+            //Find the node in the list of vertices
+            Vertex vertexes = Vertices.Find(x => x.Value == value);
+            //if node not present return null
+            if(vertexes == null)
+            {
+                return null;
+            }
+            //return nodes of adjacent vertices
+            Dictionary<string, int> neighbors = new Dictionary<string, int>();
+            foreach(var val in vertexes.AdjacentVertices)
+            {
+                var key = val.Key;
+                neighbors.Add((string)key.Value, vertexes.AdjacentVertices[key]);
+            }
+            //return the neighbors
+            return neighbors;
+        }
+
+        /// <summary>
+        /// Beadth First Traversal
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public List<Vertex> BreadthFirst(Vertex root)
+        {
+            List<Vertex> order = new List<Vertex>();
+            Queue<Vertex> breadth = new Queue<Vertex>();
+            breadth.Enqueue(root);
+
+            while (breadth.TryPeek(out root))
+            {
+                Vertex front = breadth.Dequeue();
+                order.Add(front);
+
+                foreach (Vertex child in Vertices)
+                {
+                    if (!child.IsVisited)
+                    {
+                        child.IsVisited = true;
+                        breadth.Enqueue(child);
+                    }
+                }
+            }
+
+            return order;
         }
 
     }
