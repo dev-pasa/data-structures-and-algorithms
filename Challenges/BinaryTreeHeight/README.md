@@ -1,9 +1,9 @@
 # Binary Tree Height
 
 
-## Challenge
+## `Challenge`
 * Find the height of the tree.
-* Return and int that represents the height of the binary tree. 
+* Return an int value that represents the height of the binary tree. 
 
 
 ## Approach & Efficiency
