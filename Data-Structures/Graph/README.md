@@ -42,6 +42,12 @@
 5. Size() 
 * Returns the total number of nodes in the graph
 
+6. GetEdge()
+* Write a function based on the specifications above, which takes in a graph, and an array of city names. Without utilizing any of the built-in methods, return whether the full trip is possible with direct flights, and how much it would cost.
+![Get Edge](/Assets/GetEdge.jpg)
+![Get Edge](/Assets/GetEdge2.jpg)
+![Get Edge](/Assets/GetEdge3.jpg)
+
 
 ## Approach & Efficiency
 
