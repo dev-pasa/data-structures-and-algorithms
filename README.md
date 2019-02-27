@@ -9,6 +9,7 @@
 
 ## Challenges:
 1. [Array Shift](Challenges/ArrayShift/README.md)
+- A function called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available returns an array with the new value added at the middle index of the given array.
 
 2. [Binary Search](Challenges/BinarySearch/README.md)
 
