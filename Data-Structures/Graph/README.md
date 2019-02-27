@@ -19,7 +19,7 @@
 
 2. AddEdge() 
 * Adds a new edge between two nodes in the graph
-* Include the ability to have a ìweightî
+* Include the ability to have a ‚Äúweight‚Äù
 * Takes in the two nodes to be connected by the edge
 * Both nodes should already be in the Graph
 
@@ -52,24 +52,24 @@ Constructor Methods
 
 Creates the Adjaceny List
 
-1. AddVertex Method
+### `1. AddVertex Method`
 * Input Vertices vertex
 * Creates a new Linked List that holds Edges
 * Increases Size of graph by 1
 
 
-2. AddEdge Method
+### `2. AddEdge Method`
 * Input - Vertex V1, Vertex V2
 * Creates a new Linked List 
 * Add the Edge to the head of linked list.  
 
-3. GetVerticies Method
+### `3. GetVerticies Method`
 * List of Vertices in the Graph
 
-4. GetNeighbors Method
+### `4. GetNeighbors Method`
 * Return Neighbors linked list
 
-5. GetSize Method
+### `5. GetSize Method`
 * Return Size of the Graph
 
 ## Additional Methods
