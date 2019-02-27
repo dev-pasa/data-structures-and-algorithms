@@ -69,3 +69,4 @@
 ## Sorting Algorithms:
 
 1. [Insertion Sort](Sorting_Algorithms/InsertionSort/README.md)
+- `An Insertion Sort Algorithm`
