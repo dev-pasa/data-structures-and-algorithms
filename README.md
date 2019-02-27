@@ -40,6 +40,7 @@
 - `For a given integer n, generate all possible permutations of n pairs of parentheses, with all permutations being "code-legal"`
 
 11. [Is Tree Balanced?](Challenges/IsBinaryTreeBalanced/README.md)
+- `Check whether a tree is balanced or not.`
 
 12. [Linked List kth Node From End](Challenges/KthNodeFromEnd/README.md)
 - `Add a new method to the LinkedList class that takes in an integer k and returns the value kth from the end of the array.`
@@ -54,29 +55,35 @@
 - `Verify if a given string contains code-valid bracket pairings.`
 
 16. [Pseudo Queue](Challenges/PseudoQueue/README.md)
+- `The goal is to create Stack with queue properties. Create stack methods that behaves the same way as a queue.`
 
-17. [Linked List Remove Duplicates](Challenges/RemoveDuplicatesLinkedList/README.md)
+17. [Linked List Remove Duplicates](Challenges/RemoveDuplicatesLinkedList)
+- `Remove duplicate values in a linked list`
 
 18. [Check Repeat Words](Challenges/RepeatWord/README.md)
 - `Find the first repeated word in a lengthy string.`
 
 19 . [Shuffle Linked List](Challenges/ShuffleLinkedList/README.md)
+- `An algorithm that suffles the linked list`
 
 20. [Tree Intersection](Challenges/TreeIntersection/README.md)
-
+- `Find common nodes in two binary tree and output a list`
 
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList/README.md)
+- `Construct a linked list`
 
 2. [Stacks and Queues](Data-Structures/StacksAndQueues/README.md)
+- `Construct stack and queue data structure`
 
 3. [Tree](Data-Structures/tree/README.md)
+- `Construct a hash table data structure`
 
 4. [HashTable](Data-Structures/Hashtables/README.md)
 - `Implement a HashTable class with Add, Contains, Get, and Hash methods. `
 
 5. [Graph](Data-Structures/Graph/README.md)
-
+- `Construct a graph data structure`
 
 ## Sorting Algorithms:
 
