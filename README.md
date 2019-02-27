@@ -19,34 +19,46 @@
 - `Find the height of the tree.`
 
 4. [Binary Tree Sum of Odds](Challenges/BinaryTreeSumOfOdds/README.md)
+- `Add the sum of odd value in a tree`
 
 5. [Tree Breadth First Traversal](Challenges/BreadthFirstSearch/README.md)
+- `Breadth first traversal of a Tree data structure.`
 
 6. [Fibonacci Sequence](Challenges/Fibonacci/README.md)
+- `Write a function called Fibonacci which takes in a integer and returns a fibonacci number to it.`
 
 7. [Queue Animal Shelter](Challenges/FifoAnimalShelter/README.md)
+- `Learning queue data structure using objects. Create an Animal Shelter class that only accepts Cats or Dogs, and can Dequeue a Cat, a Dog, or the animal that has been in the shelter the longest.`
 
 8. [Max Value Binary Tree](Challenges/FindMaxValueBinaryTree/README.md)
+- `Write a method that returns the maximum value in a Binary Tree of numeric values.`
 
 9. [FizzBuzz Tree](Challenges/FizzBuzzTree/README.md)
+- `Replaces all the integer values in a binary tree with "Fizz" if they are divisible by 3, "Buzz" if divisible by 5, and "FizzBuzz" if divisible by both.`
 
 10. [Generate Balanced Paretheses](Challenges/GenerateBalancedParethesesCombinations/BalancedParenthe)
+- `For a given integer n, generate all possible permutations of n pairs of parentheses, with all permutations being "code-legal"`
 
 11. [Is Tree Balanced?](Challenges/IsBinaryTreeBalanced/README.md)
 
 12. [Linked List kth Node From End](Challenges/KthNodeFromEnd/README.md)
+- `Add a new method to the LinkedList class that takes in an integer k and returns the value kth from the end of the array.`
 
 13. [HashTable Left Join](Challenges/LeftJoin/README.md)
+- `Perform a LEFT JOIN on two hash tables.`
 
 14. [Merge Linked List](Challenges/MergeLinkedList/README.md)
+- `Create a static method that merges two Linked Lists, "zipping" their values together, and returns the merged list.`
 
 15. [Multi Bracket Validation](Challenges/MultiBracketValidation/README.md)
+- `Verify if a given string contains code-valid bracket pairings.`
 
 16. [Pseudo Queue](Challenges/PseudoQueue/README.md)
 
 17. [Linked List Remove Duplicates](Challenges/RemoveDuplicatesLinkedList/README.md)
 
 18. [Check Repeat Words](Challenges/RepeatWord/README.md)
+- `Find the first repeated word in a lengthy string.`
 
 19 . [Shuffle Linked List](Challenges/ShuffleLinkedList/README.md)
 
