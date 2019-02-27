@@ -57,7 +57,7 @@
 3. [Tree](Data-Structures/tree/README.md)
 
 4. [HashTable](Data-Structures/Hashtables/README.md)
-`Implement a HashTable class with Add, Contains, Get, and Hash methods. `
+- `Implement a HashTable class with Add, Contains, Get, and Hash methods. `
 
 5. [Graph](Data-Structures/Graph/README.md)
 
