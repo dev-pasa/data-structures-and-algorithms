@@ -120,7 +120,7 @@ namespace graph.Classes
         {
             if (!Vertices.Contains(root))
             {
-                return null;
+                throw new ArgumentOutOfRangeException("Node does not exist inside the Graph.");
             }
             
             //create list to hold all the visited vertexes
