@@ -8,12 +8,15 @@
 * Space complexity: The data structure should use as little memory as possible.
 
 ## Challenges:
+
 1. [Array Shift](Challenges/ArrayShift/README.md)
-- A function called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available returns an array with the new value added at the middle index of the given array.
+- `A function called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available returns an array with the new value added at the middle index of the given array.`
 
 2. [Binary Search](Challenges/BinarySearch/README.md)
+- `Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available returns the index of the array’s element that is equal to the search key, or returns -1 if the element does not exist.`
 
 3. [Tree Height](Challenges/BinaryTreeHeight/README.md)
+- `Find the height of the tree.`
 
 4. [Binary Tree Sum of Odds](Challenges/BinaryTreeSumOfOdds/README.md)
 
