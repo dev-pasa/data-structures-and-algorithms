@@ -6,9 +6,8 @@ Write a function called insertShiftArray which takes in an array and the value t
 
 
 - Example
-- Input	            |   Output
-- -------------------   ------------------
-- [2,4,6,8], 5	    |  [2,4,5,6,8]
+- Input	              |   Output
+- [2,4,6,8], 5	      |  [2,4,5,6,8]
 - [4,8,15,23,42], 16	| [4,8,15,16,23,42]
 
 
