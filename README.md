@@ -3,7 +3,7 @@
 * The goal is to learn data strctures and algorithms using C#. This is my learning experience using a strictly typed object oriented language. Through out the process I will analyze the theoretical running times of operations on the data structures.
 
 ## My primary focus will be on three main things:
-* Correctness: The data structure should correctly implement its interface.
+* Correctness: The data structure should correctly implement its interface. Use testing for validation and also try to include separtion of concerts for better algorithm pattern. 
 * Time complexity: The running times of operations on the data structure should be as small as possible.
 * Space complexity: The data structure should use as little memory as possible.
 
