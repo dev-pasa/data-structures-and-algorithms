@@ -1,8 +1,8 @@
 ## Find the Fibonacci number for a given integer
 
 ## Challenge
-Write a function called Fibonacci which takes in  a integer and returns a fibonacci number to it.
-recursively we can do it using fib(n-1) + fib(n -2) but the BigO would be O(2^n) which is very inefficient. 
+- Write a function called Fibonacci which takes in  a integer and returns a fibonacci number to it.
+- Recursively it can be done using fib(n-1) + fib(n -2) but the BigO would be O(2^n) which can be inefficient. 
 
 ## Solution
 The algorithm I used loops through the number length. The BigO for my solution is O(n). The loop will execute n times until i is greater than n. i starts at zero and increments by 1 every iteration of this loop until n.
