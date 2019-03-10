@@ -19,11 +19,12 @@ namespace Tree.Classes
                 root = new Node(value);
                 return root;
             }
+            //if value if less than the root go left
             if (value < root.Value)
             {
                 root.Left = Add(root.Left, value);
             }
-
+            // if value if greater than the root  then go right
             else if (value > root.Value)
             {
                 root.Right = Add(root.Right, value);

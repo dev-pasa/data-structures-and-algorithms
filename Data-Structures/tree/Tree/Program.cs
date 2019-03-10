@@ -21,13 +21,19 @@ namespace Tree
             List<int> PostOrderList = new List<int>();
 
             myTree.PreOrder(myTree.root, PreOrderList);
-            
+
+            /// <summary>
+            /// Pre-order tree traversal
+            /// </summary>
             foreach (int val in PreOrderList)
             {
                 Console.Write($"{val} ");
             }
             Console.WriteLine("Print PreOrder data traversal  values");
 
+            /// <summary>
+            /// In-order tree traversal
+            /// </summary>
             myTree.InOrder(myTree.root, InOrderList);
             foreach (int val in InOrderList)
             {
@@ -35,6 +41,9 @@ namespace Tree
             }
             Console.WriteLine("Print InOrder data traversal  values");
 
+            /// <summary>
+            /// Post-order tree traversal
+            /// </summary>
             myTree.PostOrder(myTree.root, PostOrderList);
             foreach (int val in PostOrderList)
             {
@@ -45,6 +54,9 @@ namespace Tree
             Console.WriteLine();
             int[] bstValues = { 1, 2, 3, 4, 5 };
 
+            /// <summary>
+            /// Print values of binary search tree
+            /// </summary>
             BinarySearchTree BST = new BinarySearchTree();
             foreach (int num in bstValues)
             {

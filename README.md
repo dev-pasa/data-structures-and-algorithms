@@ -63,7 +63,7 @@
 18. [Check Repeat Words](Challenges/RepeatWord/README.md)
 - `Find the first repeated word in a lengthy string.`
 
-19 . [Shuffle Linked List](Challenges/ShuffleLinkedList/README.md)
+19. [Shuffle Linked List](Challenges/ShuffleLinkedList/README.md)
 - `An algorithm that suffles the linked list`
 
 20. [Tree Intersection](Challenges/TreeIntersection/README.md)

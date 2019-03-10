@@ -26,6 +26,7 @@ namespace IsBinaryTreeBalanced
         public static bool IsBinaryTreeBalanced(Node root)
         {
             HeightBinaryTree(root);
+            // return true or false if the value is greater than 1
             return result;
         }
 
@@ -44,9 +45,12 @@ namespace IsBinaryTreeBalanced
                 return count;
             }
             count++;
+            //get the count of the right side and the left side
             int leftCount = count + HeightBinaryTree(root.Left);
             int rightCount = count + HeightBinaryTree(root.Right);
+            // if the difference is greater then the one return false
             if (Math.Abs(leftCount - rightCount) > 1) result = false;
+            // return the value 
             return Math.Max(leftCount, rightCount);
         }
     }

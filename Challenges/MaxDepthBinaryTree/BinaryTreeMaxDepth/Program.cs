@@ -6,6 +6,10 @@ namespace BinaryTreeMaxDepth
 {
     public class Program
     {
+        /// <summary>
+        /// Run the MaxDepth on the main method
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             BinarySearchTree BST = new BinarySearchTree();
@@ -18,15 +22,22 @@ namespace BinaryTreeMaxDepth
             Console.WriteLine(MaxDepth(BST.root));
         }
 
-
+        /// <summary>
+        /// Calculate the max depth of the binary tree
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
         public static int MaxDepth(Node root)
         {
+            // if root is null retun 0
             if (root == null) return 0;
             else
             {
+                // recursively run the method on the left side and the right side
                 int LeftDepth = MaxDepth(root.Left);
                 int RightDepth = MaxDepth(root.Right);
 
+                //return max depth of the tree
                 return (Math.Max(LeftDepth, RightDepth)+1);
             }      
         }

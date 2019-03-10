@@ -6,6 +6,10 @@ namespace BinaryTreeHeight
 {
     public class Program
     {
+        /// <summary>
+        /// run the test in the main method
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             BinarySearchTree BST = new BinarySearchTree();
@@ -32,8 +36,11 @@ namespace BinaryTreeHeight
                 count++;
                 return count;
             }
+            // return count
             count++;
+            // get the count on the left side
             int leftCount = count + CalculateBinaryTreeHeight(root.Left);
+            //get a count on the right side
             int RightCount = count + CalculateBinaryTreeHeight(root.Right);
             return Math.Max(leftCount, RightCount);
         }

@@ -3,7 +3,7 @@ using Xunit;
 using System.Collections.Generic;
 using Tree.Classes;
 
-namespace XUnitTreeTest
+namespace XUnitTestForTree
 {
     public class UnitTest1
     {
@@ -28,9 +28,9 @@ namespace XUnitTreeTest
             bst.root = bst.Add(bst.root, 2);
             Assert.True(bst.root.Value == 1 && bst.root.Right.Value == 2);
         }
-            /// <summary>
-            /// Add two value to BST
-            /// </summary>
+        /// <summary>
+        /// Add two value to BST
+        /// </summary>
         [Fact]
         public void AddBST3()
         {
@@ -38,7 +38,7 @@ namespace XUnitTreeTest
             bst.root = bst.Add(bst.root, 3);
             bst.root = bst.Add(bst.root, 2);
             bst.root = bst.Add(bst.root, 4);
-            Assert.True(bst.root.Value == 3 && bst.root.Right.Value == 4 && bst.root.Left.Value ==2);
+            Assert.True(bst.root.Value == 3 && bst.root.Right.Value == 4 && bst.root.Left.Value == 2);
         }
 
         //Test BST Search value == root
@@ -48,7 +48,7 @@ namespace XUnitTreeTest
             int[] value = { 6 };
             BinarySearchTree bst = new BinarySearchTree();
             bst.root = bst.Add(bst.root, 6);
-            
+
             Assert.Equal(6, bst.Contains(bst.root, 6).Value);
         }
 
@@ -129,7 +129,7 @@ namespace XUnitTreeTest
         public void TestPostOrder(int v1, int v2, int v3)
         {
             List<int> values = new List<int>();
-            List<int> expected = new List<int> { v2, v3 ,v1 };
+            List<int> expected = new List<int> { v2, v3, v1 };
             BinaryTree bst = new BinaryTree(v1);
             bst.root.Left = new Node(v2);
             bst.root.Right = new Node(v3);
