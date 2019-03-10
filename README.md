@@ -69,6 +69,9 @@
 20. [Tree Intersection](Challenges/TreeIntersection/README.md)
 - `Find common nodes in two binary tree and output a list`
 
+21. [Tree Max Depth](Challenges/MaxDepthBinaryTree/README.md)
+- `Find the max depth of the binary tree`
+
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList/README.md)
 - `Construct a linked list`
