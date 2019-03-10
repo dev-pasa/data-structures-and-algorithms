@@ -13,6 +13,7 @@ namespace ArrayShift
             int[] array = new int[] { 1, 2, 4, 6, 7, 8, 9 };
             int value = 5;
             int[] newArr = ArrayInsert(array, value);
+            // print all the values in the array
             for(int i = 0; i < newArr.Length; i++)
             {
                 Console.Write($"{newArr[i]}, ");
@@ -39,11 +40,13 @@ namespace ArrayShift
 
             for(int i = 0; i < newArr.Length; i++)
             { 
-                //our if conditions
-                if(i == midFixed) newArr[i] = value;              
+                // if index is mid add to the mid
+                if(i == midFixed) newArr[i] = value;       
+                // if the index is greater then mid, value at index is array index -1
                 else if (i > midFixed) newArr[i] = array[i - 1];              
                 else newArr[i] = array[i]; 
             }
+            // return new Array
             return newArr;
         }
     }
