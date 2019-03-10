@@ -1,6 +1,5 @@
 # Binary Tree Height
 
-
 ## `Challenge`
 * Find the height of the tree.
 * Return an int value that represents the height of the binary tree. 
@@ -16,4 +15,4 @@
 
 
 ## API
-* A method was created that traverses through the entire tree and finds the height of the tree. 
+* A method traverses through the entire tree and finds the height of the tree. 
