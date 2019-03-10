@@ -13,14 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="AsyncInn">
-      <HintPath>..\..\..\AsyncInn\AsyncInn\AsyncInn\bin\Debug\netcoreapp2.2\AsyncInn.dll</HintPath>
-    </Reference>
     <Reference Include="BreadthFirst">
-      <HintPath>..\BreadthFirstSearch\BreadthFirst\bin\Debug\netcoreapp2.2\BreadthFirst.dll</HintPath>
+      <HintPath>..\BreadthFirst\obj\Debug\netcoreapp2.2\BreadthFirst.dll</HintPath>
     </Reference>
     <Reference Include="Tree">
-      <HintPath>..\..\Data-Structures\tree\Tree\bin\Debug\netcoreapp2.2\Tree.dll</HintPath>
+      <HintPath>..\..\..\Data-Structures\tree\Tree\bin\Debug\netcoreapp2.2\Tree.dll</HintPath>
     </Reference>
   </ItemGroup>
 

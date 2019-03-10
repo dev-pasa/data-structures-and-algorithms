@@ -3,7 +3,7 @@ using Xunit;
 using BinaryTreeHeight;
 using Tree.Classes;
 
-namespace XUnitTestProject1
+namespace XUnitTestTreeHeight
 {
     public class UnitTest1
     {

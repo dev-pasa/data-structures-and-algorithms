@@ -6,7 +6,7 @@ using Tree.Classes;
 namespace XUnitTestBreadthFirst
 {
     public class UnitTest1
-    {   
+    {
         /// <summary>
         /// Test if the method runs on a Binary Tree
         /// </summary>
@@ -19,7 +19,7 @@ namespace XUnitTestBreadthFirst
             tree.root.Left.Left = new Node(4);
             tree.root.Left.Right = new Node(5);
             tree.root.Right.Left = new Node(6);
-            
+
             Program.BreadthFirstTraversal(tree);
         }
 
