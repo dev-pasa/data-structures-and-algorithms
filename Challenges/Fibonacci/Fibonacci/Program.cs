@@ -7,7 +7,7 @@ namespace Fibonacci
         static void Main(string[] args)
         {
             // run the fibonacci test in console
-            Console.WriteLine(Fibonacci(13));
+            Console.WriteLine(Fibonacci(5));
         }
 
         public static int Fibonacci(int n)

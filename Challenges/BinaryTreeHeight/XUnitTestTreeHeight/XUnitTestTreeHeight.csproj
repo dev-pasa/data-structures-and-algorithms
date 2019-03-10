@@ -14,10 +14,10 @@
 
   <ItemGroup>
     <Reference Include="BinaryTreeHeight">
-      <HintPath>..\BinaryTreeHeight\BinaryTreeHeight\bin\Debug\netcoreapp2.2\BinaryTreeHeight.dll</HintPath>
+      <HintPath>..\BinaryTreeHeight\bin\Debug\netcoreapp2.2\BinaryTreeHeight.dll</HintPath>
     </Reference>
     <Reference Include="Tree">
-      <HintPath>..\BinaryTreeSumOfOdds\SumOfOdds\bin\Debug\netcoreapp2.2\Tree.dll</HintPath>
+      <HintPath>..\BinaryTreeHeight\bin\Debug\netcoreapp2.2\Tree.dll</HintPath>
     </Reference>
   </ItemGroup>
 
