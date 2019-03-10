@@ -6,7 +6,9 @@ namespace BinarySearchTDD
 {
     public class UnitTest1
     {
-
+        /// <summary>
+        /// Test if the value is in the array
+        /// </summary>
         [Fact]
         public void binarytest1()
         {
@@ -20,8 +22,9 @@ namespace BinarySearchTDD
             Assert.Equal(1, Program.BinarySearch(array, key));
         }
 
-
-
+        /// <summary>
+        /// Test if the value is in the array, return -1 if false
+        /// </summary>
         [Theory]
         [InlineData(new int[] { 4, 8, 15, 16, 23, 42 }, 15)]
 
@@ -30,8 +33,9 @@ namespace BinarySearchTDD
             Assert.Equal(2, Program.BinarySearch(arr, key));
         }
 
-
-
+        /// <summary>
+        /// Test if the value is in the array, return -1 if false
+        /// </summary>
         [Theory]
         [InlineData(new int[] { 4, 8, 15, 16, 23, 42 }, 100)]
 

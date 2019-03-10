@@ -13,7 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ArrayShift.csproj" />
+    <Reference Include="Tree">
+      <HintPath>..\bin\Debug\netcoreapp2.2\Tree.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

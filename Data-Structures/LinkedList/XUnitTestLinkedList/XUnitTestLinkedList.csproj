@@ -13,7 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LinkedList\LinkedList\LinkedList.csproj" />
+    <Reference Include="LinkedList">
+      <HintPath>..\LinkedList\bin\Debug\netcoreapp2.2\LinkedList.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

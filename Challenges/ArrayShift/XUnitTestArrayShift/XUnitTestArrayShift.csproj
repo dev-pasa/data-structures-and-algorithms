@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Tree">
-      <HintPath>..\tree\Tree\bin\Debug\netcoreapp2.2\Tree.dll</HintPath>
+    <Reference Include="ArrayShift">
+      <HintPath>..\ArrayShift\bin\Debug\netcoreapp2.2\ArrayShift.dll</HintPath>
     </Reference>
   </ItemGroup>
 

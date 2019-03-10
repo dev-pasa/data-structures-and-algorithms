@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using LinkedList;
 
-namespace XUnitLinkedListTDD
+namespace XUnitTestLinkedList
 {
     public class UnitTest1
     {
@@ -15,7 +15,7 @@ namespace XUnitLinkedListTDD
             Node node3 = new Node(3);
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             //act
 
             //asserted
@@ -30,8 +30,8 @@ namespace XUnitLinkedListTDD
             Node node1 = new Node(1);
             Node node2 = new Node(2);
             Node node3 = new Node(3);
-          
-            MyLinkedList list = new MyLinkedList(node1);
+
+            MyLinkedList list = new MyLinkedList(node1.Value);
             //act
 
             //asserted
@@ -48,9 +48,9 @@ namespace XUnitLinkedListTDD
             Node node3 = new Node(3);
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
-            list.Insert(node2);
-            list.Insert(node3);
+            MyLinkedList list = new MyLinkedList(node1.Value);
+            list.Insert(node2.Value);
+            list.Insert(node3.Value);
             //act
 
             //asserted
@@ -67,9 +67,9 @@ namespace XUnitLinkedListTDD
             Node node3 = new Node(3);
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
-            list.Insert(node2);
-            list.Insert(node3);
+            MyLinkedList list = new MyLinkedList(node1.Value);
+            list.Insert(node2.Value);
+            list.Insert(node3.Value);
             //act
 
             //asserted
@@ -87,13 +87,13 @@ namespace XUnitLinkedListTDD
             Node node4 = new Node(4);
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
-            list.Insert(node2);
-            list.Insert(node4);
+            MyLinkedList list = new MyLinkedList(node1.Value);
+            list.Insert(node2.Value);
+            list.Insert(node4.Value);
             //act
 
             //asserted
-            
+
             Assert.Equal(4, list.Head.Value);
         }
 
@@ -107,9 +107,9 @@ namespace XUnitLinkedListTDD
             Node node5 = new Node(5);
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
-            list.Insert(node2);
-            list.Insert(node5);
+            MyLinkedList list = new MyLinkedList(node1.Value);
+            list.Insert(node2.Value);
+            list.Insert(node5.Value);
             //act
 
             //asserted
@@ -128,7 +128,7 @@ namespace XUnitLinkedListTDD
 
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             list.Append(5);
             //act
 
@@ -147,7 +147,7 @@ namespace XUnitLinkedListTDD
 
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             list.Append(7);
             //act
 
@@ -166,7 +166,7 @@ namespace XUnitLinkedListTDD
 
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             list.Append(9);
             //act
 
@@ -185,7 +185,7 @@ namespace XUnitLinkedListTDD
 
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             list.InsertBefore(node2, 7);
             //act
 
@@ -204,7 +204,7 @@ namespace XUnitLinkedListTDD
 
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             list.InsertBefore(node3, 10);
             //act
 
@@ -223,7 +223,7 @@ namespace XUnitLinkedListTDD
 
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             list.InsertBefore(node2, 11);
             //act
 
@@ -242,7 +242,7 @@ namespace XUnitLinkedListTDD
 
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             list.InsertAfter(node2, 5);
             //act
 
@@ -261,7 +261,7 @@ namespace XUnitLinkedListTDD
 
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             list.InsertAfter(node2, 7);
             //act
 
@@ -280,7 +280,7 @@ namespace XUnitLinkedListTDD
 
             node1.Next = node2;
             node2.Next = node3;
-            MyLinkedList list = new MyLinkedList(node1);
+            MyLinkedList list = new MyLinkedList(node1.Value);
             list.InsertAfter(node3, 9);
             //act
 
