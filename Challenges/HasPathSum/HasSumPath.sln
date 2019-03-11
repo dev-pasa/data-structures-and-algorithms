@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HasSumPath", "HasSumPath\HasSumPath.csproj", "{C0C323AA-E09E-4418-A53F-C611F5ACB0BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestHasSumPAth", "XUnitTestHasSumPAth\XUnitTestHasSumPAth.csproj", "{2504C53B-D993-45D9-BC7C-6EC52B4E466E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0C323AA-E09E-4418-A53F-C611F5ACB0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C323AA-E09E-4418-A53F-C611F5ACB0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C323AA-E09E-4418-A53F-C611F5ACB0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C323AA-E09E-4418-A53F-C611F5ACB0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2504C53B-D993-45D9-BC7C-6EC52B4E466E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2504C53B-D993-45D9-BC7C-6EC52B4E466E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2504C53B-D993-45D9-BC7C-6EC52B4E466E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2504C53B-D993-45D9-BC7C-6EC52B4E466E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B452B050-8797-4531-9791-A2F0A785F712}
+	EndGlobalSection
+EndGlobal
