@@ -76,6 +76,10 @@
 - `Check whether the path in a binary tree add up to the sum`
 - `Return a boolean value to indicate whether the sum of path is equal to the given sum.` 
 
+23. [Print all the paths in binary tree](Challenges/PrintPathBinaryTree)
+- `Print all the paths in the binary tree, from root to all the leaves`
+
+
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList)
 - `Construct a linked list`
