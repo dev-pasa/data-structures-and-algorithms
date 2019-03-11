@@ -72,7 +72,7 @@
 21. [Tree Max Depth](Challenges/MaxDepthBinaryTree)
 - `Find the max depth of the binary tree`
 
-22. [Path in tree equals given int value](Challenges/HasSumPath)
+22. [Path in tree equals given int value](Challenges/HasPathSum)
 - `Check whether the path in a binary tree add up to the sum`
 - `Return a boolean value to indicate whether the sum of path is equal to the given sum.` 
 
