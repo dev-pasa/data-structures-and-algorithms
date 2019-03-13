@@ -12,7 +12,15 @@ namespace BalancedParenthe
             printParenthesis(str, n);
         }
 
-        static void _printParenthesis(char[] str, int pos, int n, int open, int close)
+        /// <summary>
+        /// Cehck if the Parentheisis have equal values
+        /// </summary>
+        /// <param name="str"></param>
+        /// <param name="pos"></param>
+        /// <param name="n"></param>
+        /// <param name="open"></param>
+        /// <param name="close"></param>
+        public static void _printParenthesis(char[] str, int pos, int n, int open, int close)
         {
             if (close == n)
             {
@@ -38,7 +46,12 @@ namespace BalancedParenthe
             }
         }
 
-        static void printParenthesis(char[] str, int n)
+        /// <summary>
+        /// check the parenthesis and if they match the count
+        /// </summary>
+        /// <param name="str"></param>
+        /// <param name="n"></param>
+        public static void printParenthesis(char[] str, int n)
         {
             if (n > 0)
                 _printParenthesis(str, 0, n, 0, 0);
