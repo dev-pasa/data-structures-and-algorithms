@@ -82,6 +82,9 @@
 24. [Reverse Characters in a string](Challenges/ReverseWord)
 - `Reverse all the characters in a string or word`
 
+25. [Unique Integers in a 2D Array](Challenges/2dArrayUniqueVals)
+- `Return all the unique integers in a 2D Array`
+
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList)
 - `Construct a linked list`
