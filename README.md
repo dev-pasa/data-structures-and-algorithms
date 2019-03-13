@@ -79,6 +79,8 @@
 23. [Print all the paths in binary tree](Challenges/PrintPathBinaryTree)
 - `Print all the paths in the binary tree, from root to all the leaves`
 
+24. [Reverse Characters in a string](Challenges/ReverseWord)
+- `Reverse all the characters in a string or word`
 
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList)
