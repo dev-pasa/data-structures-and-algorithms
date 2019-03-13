@@ -66,10 +66,10 @@ namespace BinaryTreePaths
             int i = len;
             for(i = 0; i < len; i++)
             {
-                //print the first path
+                //print the path
                 Console.Write(paths[i] + " -> ");
             }
-            // space between the paths
+            // Create space between the paths
             Console.WriteLine( );
         }
 
