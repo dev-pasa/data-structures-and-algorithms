@@ -57,7 +57,7 @@
 16. [Pseudo Queue](Challenges/PseudoQueue)
 - `The goal is to create Stack with queue properties. Create stack methods that behaves the same way as a queue.`
 
-17. [Linked List Remove Duplicates](Challenges/RemoveDuplicatesLinkedList)
+17. [From Sorted Linked List Remove Duplicates](Challenges/RemoveDuplicatesLinkedList)
 - `Remove duplicate values in a linked list`
 
 18. [Check Repeat Words](Challenges/RepeatWord)
@@ -84,6 +84,9 @@
 
 25. [Unique Integers in a 2D Array](Challenges/2dArrayUniqueVals)
 - `Return all the unique integers in a 2D Array`
+
+26. [Most Frequent Character in an array](Challenges/MostFreqCharInArray)
+- `Return the most frequent char in an array input`
 
 ## Data Structures:
 1. [Linked list](Data-Structures/LinkedList)
